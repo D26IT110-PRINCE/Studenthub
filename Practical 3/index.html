@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- Public landing page: welcome content, active-event notice, and featured events. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudentHub is the central portal for students and administrators.">
+  <title>StudentHub | Your Campus, Connected</title>
+  <link rel="icon" type="image/png" href="assets/studenthub-logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Shared site header: brand, static theme button, and public navigation. -->
+  <header class="site-header">
+    <div class="header-top">
+      <!-- Brand link returns visitors to the public homepage. -->
+      <a class="brand" href="index.html" aria-label="StudentHub home">
+        <img src="assets/studenthub-logo.png" alt="StudentHub logo" width="56" height="56">
+        <h1>StudentHub Portal</h1>
+      </a>
+      <!-- Visual-only control reserved for a future theme feature. -->
+      <button class="theme-toggle" type="button">Change Theme</button>
+    </div>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main landing content: hero, live notice, and event cards. -->
+  <main>
+    <section class="welcome-section" aria-labelledby="welcome-title">
+      <div class="welcome-copy">
+        <p class="eyebrow">One campus. One community.</p>
+        <h2 id="welcome-title">Welcome to StudentHub</h2>
+        <p>Discover campus events, manage your academic journey, and stay connected with everything happening at StudentHub.</p>
+        <a class="primary-link" href="register.html">Join StudentHub</a>
+      </div>
+      <!-- Generated administration-building image with an accessible description. -->
+      <figure class="campus-figure">
+        <img src="assets/studenthub-admin-building.png" alt="StudentHub administration building on a sunny campus day">
+        <figcaption>The StudentHub administration building—your campus connection point.</figcaption>
+      </figure>
+    </section>
+    <section class="live-notification" aria-live="polite">
+      <div>
+        <p class="notification-label">Now happening</p>
+        <h2>Tech Event is live!!</h2>
+        <p>Meet fellow innovators, explore new ideas, and be part of the action.</p>
+      </div>
+      <!-- Visual-only controls reserved for future interaction work. -->
+      <button class="heading-button" type="button">Change Heading</button>
+      <button class="notification-close" type="button" aria-label="Close notification">&times;</button>
+    </section>
+    <section class="featured-events" aria-labelledby="events-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Campus calendar</p>
+          <h2 id="events-title">Featured events</h2>
+        </div>
+        <a href="events.html">View all events <span aria-hidden="true">→</span></a>
+      </div>
+      <!-- Event cards use login links because visitors are not authenticated on this page. -->
+      <div class="event-grid">
+        <article class="event-card">
+          <p class="event-date"><time datetime="2026-09-20">20 Sep 2026</time></p>
+          <h3>New Student Orientation</h3>
+          <p>Start your StudentHub journey with campus tours, department introductions, and new friends.</p>
+          <a class="enroll-button" href="login.html">Enroll now</a>
+        </article>
+        <article class="event-card">
+          <p class="event-date"><time datetime="2026-10-05">05 Oct 2026</time></p>
+          <h3>StudentHub Tech Fest</h3>
+          <p>Workshops, coding challenges, and project showcases led by student innovators.</p>
+          <a class="enroll-button" href="login.html">Enroll now</a>
+        </article>
+        <article class="event-card">
+          <p class="event-date"><time datetime="2026-10-15">15 Oct 2026</time></p>
+          <h3>Inter-Department Sports Meet</h3>
+          <p>Bring your team spirit to a full day of friendly competition and community fun.</p>
+          <a class="enroll-button" href="login.html">Enroll now</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- Shared site footer: portal identity, helpful links, and support details. -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="assets/studenthub-logo.png" alt="" width="42" height="42">
+        <div>
+          <h2>StudentHub Portal</h2>
+          <p>Your campus, connected.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h2>Explore</h2>
+        <a href="about.html">About StudentHub</a>
+        <a href="events.html">Campus events</a>
+        <a href="faq.html">Frequently asked questions</a>
+      </div>
+      <div class="footer-links">
+        <h2>Get in touch</h2>
+        <a href="contact.html">Contact support</a>
+        <a href="mailto:support@studenthub.edu">support@studenthub.edu</a>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 StudentHub Portal. All rights reserved.</p>
+      <a href="login.html">Student login</a>
+    </div>
+  </footer>
+</body>
+</html>

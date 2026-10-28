@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- FAQ page: native details/summary elements provide a no-JavaScript accordion. -->
+<html lang="en">
+<head>
+  <!-- Metadata about the page -->
+  <meta charset="UTF-8"> <!-- Ensures proper character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive -->
+  <title>StudentHub - FAQ</title> <!-- Title shown in browser tab -->
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header section with site title and navigation -->
+  <header class="site-header">
+    <div class="header-top">
+      <a class="brand" href="index.html" aria-label="StudentHub home">
+        <img src="assets/studenthub-logo.png" alt="StudentHub logo" width="56" height="56">
+        <h1>StudentHub Portal</h1>
+      </a>
+      <button class="theme-toggle" type="button">Change Theme</button>
+    </div>
+
+    <!-- Navigation menu with links to other pages -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main class="faq-page">
+    <!-- Section for frequently asked questions -->
+    <section class="faq-section" aria-labelledby="faq-title">
+      <div class="faq-heading">
+        <p class="eyebrow">Need a hand?</p>
+        <h2 id="faq-title">Frequently Asked Questions</h2>
+        <p>Select a question to reveal its answer.</p>
+      </div>
+
+      <div class="faq-list">
+      <details class="faq-item">
+        <summary>How do I register on StudentHub?</summary>
+        <p>You can register by visiting the Register page and filling out the form with your details.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I log in?</summary>
+        <p>Go to the Login page, enter your email and password, and select your role (Student/Admin).</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Who can access the Admin Dashboard?</summary>
+        <p>Only users with admin roles can access the Admin Dashboard.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>How can I contact support?</summary>
+        <p>Visit the Contact page and use the form to send a message to the support team.</p>
+      </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="assets/studenthub-logo.png" alt="" width="42" height="42">
+        <div>
+          <h2>StudentHub Portal</h2>
+          <p>Your campus, connected.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h2>Explore</h2>
+        <a href="about.html">About StudentHub</a>
+        <a href="events.html">Campus events</a>
+        <a href="faq.html">Frequently asked questions</a>
+      </div>
+      <div class="footer-links">
+        <h2>Get in touch</h2>
+        <a href="contact.html">Contact support</a>
+        <a href="mailto:support@studenthub.edu">support@studenthub.edu</a>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 StudentHub Portal. All rights reserved.</p>
+      <a href="login.html">Student login</a>
+    </div>
+  </footer>
+</body>
+</html>

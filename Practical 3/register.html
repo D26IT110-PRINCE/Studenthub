@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Registration page: gathers new-student account and course details. -->
+<html lang="en">
+<head>
+  <!-- Metadata about the page -->
+  <meta charset="UTF-8"> <!-- Ensures proper character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive -->
+  <title>StudentHub - Register</title> <!-- Title shown in browser tab -->
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header section with site title and navigation -->
+  <header class="site-header">
+    <div class="header-top">
+      <a class="brand" href="index.html" aria-label="StudentHub home">
+        <img src="assets/studenthub-logo.png" alt="StudentHub logo" width="56" height="56">
+        <h1>StudentHub Portal</h1>
+      </a>
+      <button class="theme-toggle" type="button">Change Theme</button>
+    </div>
+
+    <!-- Navigation menu with links to other pages -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main class="form-page">
+    <!-- Section for registration form -->
+    <section class="form-card" aria-labelledby="register-title">
+      <h2 id="register-title">Student Registration</h2>
+      
+      <!-- Skeleton form structure (no validation or styling yet) -->
+      <form class="portal-form" action="#" method="post">
+        <!-- Name field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" aria-required="true">
+
+        <!-- Email field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" aria-required="true">
+
+        <!-- Password field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" aria-required="true">
+
+        <!-- Confirm Password field -->
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" aria-required="true">
+
+        <!-- Course selection -->
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+          <option value="">--Select Course--</option>
+          <option value="btech">B.Tech</option>
+          <option value="mca">MCA</option>
+          <option value="msc">M.Sc</option>
+        </select>
+
+        <!-- Year selection -->
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+          <option value="">--Select Year--</option>
+          <option value="1">1st Year</option>
+          <option value="2">2nd Year</option>
+          <option value="3">3rd Year</option>
+          <option value="4">4th Year</option>
+        </select>
+
+        <!-- Gender selection -->
+        <fieldset>
+          <legend>Gender:</legend>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+        </fieldset>
+
+        <!-- Terms acceptance -->
+        <label>
+          <input type="checkbox" name="terms" aria-required="true"> I accept the terms and conditions
+        </label>
+
+        <!-- Submit button -->
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="assets/studenthub-logo.png" alt="" width="42" height="42">
+        <div>
+          <h2>StudentHub Portal</h2>
+          <p>Your campus, connected.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h2>Explore</h2>
+        <a href="about.html">About StudentHub</a>
+        <a href="events.html">Campus events</a>
+        <a href="faq.html">Frequently asked questions</a>
+      </div>
+      <div class="footer-links">
+        <h2>Get in touch</h2>
+        <a href="contact.html">Contact support</a>
+        <a href="mailto:support@studenthub.edu">support@studenthub.edu</a>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 StudentHub Portal. All rights reserved.</p>
+      <a href="login.html">Student login</a>
+    </div>
+  </footer>
+</body>
+</html>
