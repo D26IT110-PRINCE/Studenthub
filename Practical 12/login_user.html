@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub - Secure Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-top">
+      <a class="brand" href="index.html" aria-label="StudentHub home">
+        <img src="assets/studenthub-logo.png" alt="StudentHub logo" width="56" height="56">
+        <h1>StudentHub Portal</h1>
+      </a>
+      <button class="theme-toggle" type="button">Change Theme</button>
+    </div>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">â˜°</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register_user.php">Register</a></li>
+        <li><a href="login_user.html" aria-current="page">Login</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="form-page">
+    <section class="form-card" aria-labelledby="login-title">
+      <h2 id="login-title">Secure Sign-In</h2>
+      <p class="form-note">Practical 10: Enter your credentials to access your dashboard.</p>
+
+      <div id="login-feedback" class="form-status" style="display: none; margin-bottom: 1rem; padding: 1rem; border-radius: 8px;"></div>
+
+      <form class="portal-form" action="api/process_login.php" method="POST">
+        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+        <input type="email" id="email" name="email" autocomplete="username" required>
+
+        <label for="password">Password <span aria-hidden="true">*</span></label>
+        <input type="password" id="password" name="password" autocomplete="current-password" required>
+
+        <button type="submit">Login to Account</button>
+      </form>
+
+      <p style="text-align: center; margin-top: 1.5rem;">
+        Don't have an account? <a href="register_user.php">Register here</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 StudentHub Portal. Secure Access Enabled.</p>
+  </footer>
+
+  <script>
+    // Handle URL error parameters
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const feedback = document.getElementById('login-feedback');
+
+      if (params.has('error')) {
+        feedback.style.display = 'block';
+        feedback.className = 'form-status is-error';
+        feedback.style.background = '#f8d7da';
+        feedback.style.color = '#721c24';
+
+        const errorType = params.get('error');
+        const messages = {
+          'empty_fields': 'Email and password are required.',
+          'invalid_email': 'Please enter a valid email address.',
+          'invalid_credentials': 'Invalid email or password.',
+          'timeout': 'Your session expired. Please log in again.'
+        };
+        feedback.textContent = messages[errorType] || 'An error occurred. Please try again.';
+      } else if (params.has('timeout')) {
+        feedback.style.display = 'block';
+        feedback.className = 'form-status is-error';
+        feedback.style.background = '#fff3cd';
+        feedback.style.color = '#856404';
+        feedback.textContent = 'Your session has timed out for security. Please log in again.';
+      }
+    });
+  </script>
+  <script src="js/script.js"></script>
+</body>
+</html>
