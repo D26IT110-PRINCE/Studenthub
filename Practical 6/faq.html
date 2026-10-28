@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- FAQ page: questions and answers are loaded from faqs.json and rendered dynamically. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Search and browse frequently asked questions about StudentHub.">
+  <title>StudentHub - FAQ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-top">
+      <a class="brand" href="index.html" aria-label="StudentHub home">
+        <img src="assets/studenthub-logo.png" alt="StudentHub logo" width="56" height="56">
+        <h1>StudentHub Portal</h1>
+      </a>
+      <button class="theme-toggle" type="button">Change Theme</button>
+    </div>
+
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">☰</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="faq.html" aria-current="page">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="data-page faq-page">
+    <section class="data-section" data-dataset="faqs" aria-labelledby="faq-title">
+      <div class="data-heading">
+        <p class="eyebrow">Need a hand?</p>
+        <h2 id="faq-title">Frequently Asked Questions</h2>
+        <p>Search the knowledge base or narrow the list by topic. Select a question to reveal its answer.</p>
+      </div>
+
+      <div class="data-controls" aria-label="FAQ search and filters">
+        <div class="control-group">
+          <label for="faq-search">Search questions and answers</label>
+          <input id="faq-search" data-search type="search" placeholder="Search FAQs..." autocomplete="off">
+        </div>
+        <div class="control-group">
+          <label for="faq-category">Filter by category</label>
+          <select id="faq-category" data-filter>
+            <option value="">All categories</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="faq-sort">Sort by</label>
+          <select id="faq-sort" data-sort>
+            <option value="question-asc">Question: A to Z</option>
+            <option value="question-desc">Question: Z to A</option>
+            <option value="updated-asc">Last updated: oldest first</option>
+            <option value="updated-desc">Last updated: newest first</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="faq-status" class="data-status" data-status aria-live="polite">Loading FAQs...</p>
+      <div id="faq-results" class="faq-list" data-results></div>
+      <nav class="pagination" data-pagination aria-label="FAQ pagination"></nav>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="assets/studenthub-logo.png" alt="" width="42" height="42">
+        <div>
+          <h2>StudentHub Portal</h2>
+          <p>Your campus, connected.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h2>Explore</h2>
+        <a href="about.html">About StudentHub</a>
+        <a href="events.html">Campus events</a>
+        <a href="students.html">Student profiles</a>
+        <a href="faq.html">Frequently asked questions</a>
+      </div>
+      <div class="footer-links">
+        <h2>Get in touch</h2>
+        <a href="contact.html">Contact support</a>
+        <a href="mailto:support@studenthub.edu">support@studenthub.edu</a>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 StudentHub Portal. All rights reserved.</p>
+      <a href="login.html">Student login</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/practical6.js"></script>
+</body>
+</html>
