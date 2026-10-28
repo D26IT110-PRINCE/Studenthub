@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question": "How do I register on StudentHub?",
+    "answer": "Open the Register page, complete the required fields, accept the terms, and submit the form to create your account.",
+    "category": "Account",
+    "updatedAt": "2026-08-20"
+  },
+  {
+    "id": 2,
+    "question": "How do I log in to my account?",
+    "answer": "Open the Login page, enter your registered email and password, choose your role, and select Login.",
+    "category": "Account",
+    "updatedAt": "2026-08-20"
+  },
+  {
+    "id": 3,
+    "question": "Can I update my profile after registration?",
+    "answer": "Yes. Sign in, open your Profile page, edit the allowed details, and save the changes.",
+    "category": "Account",
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": 4,
+    "question": "How do I reset a forgotten password?",
+    "answer": "Use the password recovery option on the Login page and follow the instructions sent to your registered email address.",
+    "category": "Account",
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": 5,
+    "question": "Where can I find campus events?",
+    "answer": "Open the Events page to browse all current and upcoming StudentHub activities.",
+    "category": "Events",
+    "updatedAt": "2026-09-01"
+  },
+  {
+    "id": 6,
+    "question": "How do I enroll in an event?",
+    "answer": "Sign in, open the event details, and select the enrollment action before the event closes.",
+    "category": "Events",
+    "updatedAt": "2026-09-01"
+  },
+  {
+    "id": 7,
+    "question": "Can I search or filter the event list?",
+    "answer": "Yes. Use the title search, category filter, sorting options, and pagination controls on the Events page.",
+    "category": "Events",
+    "updatedAt": "2026-09-05"
+  },
+  {
+    "id": 8,
+    "question": "How can I contact StudentHub support?",
+    "answer": "Use the Contact page to send a message to the support team with your question or concern.",
+    "category": "Support",
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": 9,
+    "question": "How do I submit feedback?",
+    "answer": "Open the Feedback page, complete the feedback form, and submit it for the StudentHub team to review.",
+    "category": "Support",
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": 10,
+    "question": "Who can access the Admin Dashboard?",
+    "answer": "Only accounts assigned the admin role can access the Admin Dashboard and its management features.",
+    "category": "Access",
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": 11,
+    "question": "Are passwords stored securely?",
+    "answer": "StudentHub uses password hashing for stored credentials and verifies passwords without saving plain-text copies.",
+    "category": "Security",
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": 12,
+    "question": "Can I use StudentHub on a mobile device?",
+    "answer": "Yes. The portal uses responsive layouts so pages adapt to mobile, tablet, and desktop screens.",
+    "category": "General",
+    "updatedAt": "2026-09-03"
+  },
+  {
+    "id": 13,
+    "question": "Which browsers are supported?",
+    "answer": "StudentHub is designed for current versions of Chrome, Edge, Firefox, and Safari.",
+    "category": "General",
+    "updatedAt": "2026-09-03"
+  },
+  {
+    "id": 14,
+    "question": "How do I report incorrect information?",
+    "answer": "Send the page name and the incorrect details through the Contact page so the support team can investigate.",
+    "category": "Support",
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": 15,
+    "question": "Where can I find academic resources?",
+    "answer": "Academic announcements and resources are organized through the Student Dashboard and related department pages.",
+    "category": "Academics",
+    "updatedAt": "2026-09-06"
+  }
+]

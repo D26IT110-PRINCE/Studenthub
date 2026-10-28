@@ -1,0 +1,8 @@
+# Protect data directory from direct web access
+# This prevents users from accessing CSV and JSON files directly
+
+Order deny,allow
+Deny from all
+
+# Allow access only from localhost (for PHP scripts)
+# Note: This works with Apache; for IIS use web.config above
