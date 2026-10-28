@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata about the page -->
+  <meta charset="UTF-8"> <!-- Ensures proper character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive -->
+  <title>StudentHub - Feedback</title> <!-- Title shown in browser tab -->
+</head>
+<body>
+  <!-- Header section with site title and navigation -->
+  <header>
+    <h1>StudentHub Portal</h1> <!-- Main heading of the site -->
+
+    <!-- Navigation menu with links to other pages -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- Student-specific links -->
+        <li><a href="student-dashboard.html">Student Dashboard</a></li>
+        <li><a href="student-profile.html">Student Profile</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <!-- Admin-specific links -->
+        <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <!-- Section for feedback form -->
+    <section aria-labelledby="feedback-title">
+      <h2 id="feedback-title">Submit Your Feedback</h2>
+      <p>We value your input! Please share your thoughts about StudentHub.</p>
+
+      <!-- Skeleton feedback form -->
+      <form action="#" method="post">
+        <!-- Name field -->
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name">
+
+        <!-- Email field -->
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email">
+
+        <!-- Feedback message -->
+        <label for="message">Feedback:</label>
+        <textarea id="message" name="message" rows="5" aria-required="true"></textarea>
+
+        <!-- Rating field -->
+        <label for="rating">Rate Your Experience:</label>
+        <select id="rating" name="rating">
+          <option value="">--Select Rating--</option>
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="average">Average</option>
+          <option value="poor">Poor</option>
+        </select>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2026 StudentHub Portal</p>
+  </footer>
+</body>
+</html>

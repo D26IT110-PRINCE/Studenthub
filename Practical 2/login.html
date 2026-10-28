@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata about the page -->
+  <meta charset="UTF-8"> <!-- Ensures proper character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive -->
+  <title>StudentHub - Login</title> <!-- Title shown in browser tab -->
+</head>
+<body>
+  <!-- Header section with site title and navigation -->
+  <header>
+    <h1>StudentHub Portal</h1> <!-- Main heading of the site -->
+
+    <!-- Navigation menu with links to other pages -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <!-- Section for login form -->
+    <section aria-labelledby="login-title">
+      <h2 id="login-title">User Login</h2>
+      
+      <!-- Skeleton login form (no validation or styling yet) -->
+      <form action="#" method="post">
+        <!-- Email field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" aria-required="true">
+
+        <!-- Password field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" aria-required="true">
+
+        <!-- Role selection (student/admin) -->
+        <fieldset>
+          <legend>Login as:</legend>
+          <label><input type="radio" name="role" value="student"> Student</label>
+          <label><input type="radio" name="role" value="admin"> Admin</label>
+        </fieldset>
+
+        <!-- Remember me option -->
+        <label>
+          <input type="checkbox" name="remember"> Remember Me
+        </label>
+
+        <!-- Submit button -->
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2026 StudentHub Portal</p>
+  </footer>
+</body>
+</html>

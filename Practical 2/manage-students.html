@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata about the page -->
+  <meta charset="UTF-8"> <!-- Ensures proper character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive -->
+  <title>StudentHub - Manage Students</title> <!-- Title shown in browser tab -->
+</head>
+<body>
+  <!-- Header section with site title and navigation -->
+  <header>
+    <h1>StudentHub Portal</h1> <!-- Main heading of the site -->
+
+    <!-- Navigation menu with links to other pages -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+        <li><a href="manage-students.html">Manage Students</a></li>
+        <li><a href="manage-events.html">Manage Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <!-- Section for student management -->
+    <section aria-labelledby="manage-students-title">
+      <h2 id="manage-students-title">Manage Students</h2>
+      <p>Admins can add, view, edit, and delete student records here.</p>
+
+      <!-- Skeleton table for student list -->
+      <table>
+        <caption>Student Records</caption>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>Year</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Placeholder rows -->
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>john@example.com</td>
+            <td>B.Tech</td>
+            <td>2nd Year</td>
+            <td>[Edit] [Delete]</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2026 StudentHub Portal</p>
+  </footer>
+</body>
+</html>

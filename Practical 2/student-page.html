@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata about the page -->
+  <meta charset="UTF-8"> <!-- Ensures proper character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive -->
+  <title>StudentHub - Student Profile</title> <!-- Title shown in browser tab -->
+</head>
+<body>
+  <!-- Header section with site title and navigation -->
+  <header>
+    <h1>StudentHub Portal</h1> <!-- Main heading of the site -->
+
+    <!-- Navigation menu with links to other pages -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- Student-specific links -->
+        <li><a href="student-dashboard.html">Student Dashboard</a></li>
+        <li><a href="student-profile.html">Student Profile</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <!-- Section for student profile information -->
+    <section aria-labelledby="profile-title">
+      <h2 id="profile-title">Student Profile</h2>
+      <p>Here you can view and update your personal details.</p>
+
+      <!-- Skeleton form for profile details -->
+      <form action="#" method="post">
+        <!-- Name field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name">
+
+        <!-- Email field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <!-- Mobile number field -->
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile">
+
+        <!-- Course field -->
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course">
+
+        <!-- Year field -->
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year">
+
+        <!-- Save changes button -->
+        <button type="submit">Save Changes</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2026 StudentHub Portal</p>
+  </footer>
+</body>
+</html>
