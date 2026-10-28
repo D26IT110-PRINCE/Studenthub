@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Patel",
+    "email": "aarav.patel@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "3rd Year",
+    "city": "Vallabh Vidyanagar",
+    "enrollmentDate": "2024-07-15"
+  },
+  {
+    "id": 2,
+    "name": "Ananya Shah",
+    "email": "ananya.shah@studenthub.edu",
+    "course": "B.Tech CSE",
+    "year": "2nd Year",
+    "city": "Anand",
+    "enrollmentDate": "2025-07-18"
+  },
+  {
+    "id": 3,
+    "name": "Arjun Desai",
+    "email": "arjun.desai@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "1st Year",
+    "city": "Surat",
+    "enrollmentDate": "2026-07-10"
+  },
+  {
+    "id": 4,
+    "name": "Diya Mehta",
+    "email": "diya.mehta@studenthub.edu",
+    "course": "BCA",
+    "year": "2nd Year",
+    "city": "Vadodara",
+    "enrollmentDate": "2025-07-18"
+  },
+  {
+    "id": 5,
+    "name": "Ishan Trivedi",
+    "email": "ishan.trivedi@studenthub.edu",
+    "course": "B.Tech CSE",
+    "year": "4th Year",
+    "city": "Ahmedabad",
+    "enrollmentDate": "2023-07-12"
+  },
+  {
+    "id": 6,
+    "name": "Kavya Joshi",
+    "email": "kavya.joshi@studenthub.edu",
+    "course": "MCA",
+    "year": "1st Year",
+    "city": "Nadiad",
+    "enrollmentDate": "2026-07-14"
+  },
+  {
+    "id": 7,
+    "name": "Mihir Pandya",
+    "email": "mihir.pandya@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "2nd Year",
+    "city": "Bharuch",
+    "enrollmentDate": "2025-07-18"
+  },
+  {
+    "id": 8,
+    "name": "Navya Rao",
+    "email": "navya.rao@studenthub.edu",
+    "course": "B.Sc IT",
+    "year": "3rd Year",
+    "city": "Surat",
+    "enrollmentDate": "2024-07-15"
+  },
+  {
+    "id": 9,
+    "name": "Rohan Gupta",
+    "email": "rohan.gupta@studenthub.edu",
+    "course": "B.Tech CSE",
+    "year": "1st Year",
+    "city": "Anand",
+    "enrollmentDate": "2026-07-10"
+  },
+  {
+    "id": 10,
+    "name": "Sara Khan",
+    "email": "sara.khan@studenthub.edu",
+    "course": "BCA",
+    "year": "1st Year",
+    "city": "Vadodara",
+    "enrollmentDate": "2026-07-10"
+  },
+  {
+    "id": 11,
+    "name": "Shivam Verma",
+    "email": "shivam.verma@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "4th Year",
+    "city": "Ahmedabad",
+    "enrollmentDate": "2023-07-12"
+  },
+  {
+    "id": 12,
+    "name": "Sneha Parmar",
+    "email": "sneha.parmar@studenthub.edu",
+    "course": "MCA",
+    "year": "2nd Year",
+    "city": "Nadiad",
+    "enrollmentDate": "2025-07-18"
+  },
+  {
+    "id": 13,
+    "name": "Vedant Modi",
+    "email": "vedant.modi@studenthub.edu",
+    "course": "B.Tech CSE",
+    "year": "3rd Year",
+    "city": "Vallabh Vidyanagar",
+    "enrollmentDate": "2024-07-15"
+  },
+  {
+    "id": 14,
+    "name": "Zaina Sheikh",
+    "email": "zaina.sheikh@studenthub.edu",
+    "course": "B.Sc IT",
+    "year": "2nd Year",
+    "city": "Bharuch",
+    "enrollmentDate": "2025-07-18"
+  },
+  {
+    "id": 15,
+    "name": "Aarti Solanki",
+    "email": "aarti.solanki@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "3rd Year",
+    "city": "Surat",
+    "enrollmentDate": "2024-07-15"
+  }
+]
