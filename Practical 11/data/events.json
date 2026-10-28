@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "New Student Orientation",
+    "date": "2026-09-20",
+    "location": "Main Auditorium",
+    "category": "Academic"
+  },
+  {
+    "id": 2,
+    "title": "StudentHub Tech Fest",
+    "date": "2026-10-05",
+    "location": "Innovation Lab",
+    "category": "Technical"
+  },
+  {
+    "id": 3,
+    "title": "Inter-Department Sports Meet",
+    "date": "2026-10-15",
+    "location": "Sports Complex",
+    "category": "Sports"
+  },
+  {
+    "id": 4,
+    "title": "Career Guidance Workshop",
+    "date": "2026-10-22",
+    "location": "Seminar Hall 2",
+    "category": "Career"
+  },
+  {
+    "id": 5,
+    "title": "Cultural Night",
+    "date": "2026-11-01",
+    "location": "Central Courtyard",
+    "category": "Cultural"
+  },
+  {
+    "id": 6,
+    "title": "Hackathon 2026",
+    "date": "2026-11-08",
+    "location": "Innovation Lab",
+    "category": "Technical"
+  },
+  {
+    "id": 7,
+    "title": "Alumni Meet",
+    "date": "2026-11-14",
+    "location": "Main Auditorium",
+    "category": "Community"
+  },
+  {
+    "id": 8,
+    "title": "Entrepreneurship Talk",
+    "date": "2026-11-20",
+    "location": "Conference Room",
+    "category": "Career"
+  },
+  {
+    "id": 9,
+    "title": "Blood Donation Camp",
+    "date": "2026-11-27",
+    "location": "Medical Centre",
+    "category": "Community"
+  },
+  {
+    "id": 10,
+    "title": "Book Club Launch",
+    "date": "2026-12-03",
+    "location": "Central Library",
+    "category": "Cultural"
+  },
+  {
+    "id": 11,
+    "title": "Robotics Exhibition",
+    "date": "2026-12-10",
+    "location": "Innovation Lab",
+    "category": "Technical"
+  },
+  {
+    "id": 12,
+    "title": "Yoga and Wellness Session",
+    "date": "2026-12-16",
+    "location": "Sports Ground",
+    "category": "Wellness"
+  },
+  {
+    "id": 13,
+    "title": "Student Project Showcase",
+    "date": "2026-12-18",
+    "location": "Main Auditorium",
+    "category": "Academic"
+  },
+  {
+    "id": 14,
+    "title": "Winter Carnival",
+    "date": "2027-01-09",
+    "location": "Central Courtyard",
+    "category": "Cultural"
+  },
+  {
+    "id": 15,
+    "title": "Industry Interaction Day",
+    "date": "2027-01-16",
+    "location": "Seminar Hall 1",
+    "category": "Career"
+  }
+]
